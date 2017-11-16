@@ -1,0 +1,431 @@
+@import "bootstrap";
+
+#header {
+    height: 750px;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .menu {
+        height: 50px;
+        margin-top: 60px;
+
+        i {
+            font-size: 40px;
+            float: right;
+        }
+    }
+
+    .header-text {
+        text-align: center;
+        font-family: sans-serif;
+
+        h1 {
+            font-size: 40px;
+            margin-top: 150px;
+            color: #363636;
+
+            span {
+                color: #a1a9b0;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            margin-top: 30px;
+            color: #8c9398;
+        }
+    }
+
+    .button {
+        margin-top: 60px;
+
+        button {
+            height: 60px;
+            width: 240px;
+            background-color: #3dc9b3;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-left: 460px;
+            font-size: 16px;
+            font-weight: 700;
+            border-color: #3dc9b3;
+        }
+    }
+}
+
+#portfolio {
+    background-color: white;
+    text-align: center;
+
+    .template {
+        height: 400px;
+
+        h4 {
+            margin-top: 110px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        span {
+            font-size: 16px;
+            color: #8c9398;
+        }
+
+        p {
+            margin-top: 60px;
+            font-size: 15px;
+            color: #8c9398;
+            text-align: center;
+        }
+    }
+
+    .skill {
+        height: 800px;
+        margin-top: 90px;
+
+        h4 {
+            margin-top: 110px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        span {
+            font-size: 16px;
+            color: #8c9398;
+        }
+
+        .icon {
+            margin-top: 90px;
+
+            .circle {
+                height: 190px;
+                width: 190px;
+                background-color: #3dc9b3;
+                border-radius: 100%;
+
+                i {
+                    margin-top: 65px;
+                    text-align: center;
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+
+            h3 {
+                margin-top: 60px;
+            }
+
+            p {
+                font-size: 18px;
+                color: #8c9398;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+#design {
+    height: auto;
+
+    .left-side {
+        height: 600px;
+
+        img {
+            height: 600px;
+            width: 952px;
+            position: absolute;
+            left: -368px;
+        }
+    }
+
+    .right-side {
+        height: 600px;
+        text-align: center;
+
+        h5 {
+            font-weight: bold;
+            margin-top: 140px;
+        }
+
+        p {
+            margin: 30px 60px;
+            color: #8c9398;
+        }
+    }
+
+    .problems {
+        height: 300px;
+        background-image: url(../images/flower1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        h1 {
+            color: white;
+            margin-top: 45px;
+        }
+
+        h3 {
+            color: white;
+            margin-top: 45px;
+        }
+
+        .mini-icon {
+            text-align: center;
+
+            i {
+                height: 40px;
+                width: 40px;
+                border: 1px solid #39a999;
+                border-radius: 100%;
+                background-color: #39a999;
+                cursor: pointer;
+                color: white;
+                padding-top: 5px;
+                margin-top: 30px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .layer {
+        height: 300px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+        text-align: center;
+    }
+}
+
+#creative {
+    height: auto;
+
+    .creative-parts {
+        height: 500px;
+        text-align: center;
+
+        h4 {
+            margin-top: 60px;
+        }
+
+        p {
+            margin-top: 30px;
+            color: #8c9398;
+        }
+
+        img {
+            width: 100%;
+            margin-top: 90px;
+            cursor: pointer;
+            z-index: 1;
+        }
+    }
+
+    .passion {
+        height: 200px;
+        width: 100%;
+        background-color: #242830;
+
+        button {
+            height: 80px;
+            width: 240px;
+            background-color: #242830;
+            display: flex;
+            justify-content: center;
+            margin-left: 460px;
+            font-size: 16px;
+            font-weight: 700;
+            border-color: white;
+            margin-left: 820px;
+            margin-top: 60px;
+        }
+
+        button:hover {
+            border-color: #3dc9b3;
+            color: #3dc9b3;
+        }
+    }
+}
+
+#users {
+    height: 750px;
+
+    .team {
+        text-align: center;
+
+        h4 {
+            margin-top: 110px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        span {
+            font-size: 16px;
+            color: #8c9398;
+        }
+
+        .commentary {
+            height: 400px;
+            margin-top: 90px;
+
+            h3 {
+                font-weight: bold;
+            }
+
+            p {
+                margin-top: 30px;
+                color: #8c9398;
+            }
+
+            i {
+                height: 40px;
+                width: 40px;
+                border: 1px solid #252931;
+                border-radius: 100%;
+                background-color: #252931;
+                color: white;
+                padding-top: 10px;
+                cursor: pointer;
+            }
+
+            i:hover {
+                background-color: #3dc9b3;
+                border: 1px solid #3dc9b3;
+            }
+        }
+    }
+}
+
+#message {
+    height: 400px;
+    background-image: url(../images/keyboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+    i {
+        margin-top: 90px;
+        font-size: 30px;
+        color: white;
+    }
+
+    h4 {
+        margin-top: 30px;
+        color: white;
+    }
+
+    input {
+        height: 60px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 1px solid white;
+        margin-top: 30px;
+    }
+
+    .send-button {
+        height: 60px;
+        width: 80px;
+        border: 1px solid white;
+        background-color: rgba(61, 201, 179, 0.5);
+    }
+}
+
+#bottom {
+    height: 560px;
+    text-align: center;
+    background-color: #f3f5f8;
+
+    h4 {
+        margin-top: 110px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    span {
+        font-size: 16px;
+        color: #8c9398;
+    }
+
+    .contact {
+        margin-top: 90px;
+        background-color: white;
+        height: 200px;
+        transition: all 0.1s ease;
+
+        &:hover {
+            border-bottom: 3px solid #3dc9b3;
+            margin-top: 80px;
+        }
+
+        i {
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        h5 {
+            font-weight: bold;
+            color: #3dc9b3;
+            margin-top: 30px;
+
+            &:after {
+                content: " ";
+                border: solid 2px #3dc9b3;
+                display: block;
+                width: 35px;
+                margin: 25px auto;
+            }
+        }
+
+        p {
+            color: #8c9398;
+        }
+    }
+
+    .bottom-icon {
+        height: 50px;
+        margin-top: 45px;
+
+        i {
+            height: 40px;
+            width: 40px;
+            border: 1px solid #252931;
+            border-radius: 100%;
+            background-color: #252931;
+            color: white;
+            padding-top: 10px;
+            cursor: pointer;
+            margin: 0px 10px;
+
+            &:hover {
+                background-color: #3dc9b3;
+                border: 1px solid #3dc9b3;
+            }
+        }
+    }
+}
+
+#footer {
+    .end {
+        height: 150px;
+        background-color: #242830;
+
+        .left-text {
+            float: left;
+            color: white;
+            margin-top: 70px;
+        }
+
+        .right-text {
+            float: right;
+            color: white;
+            margin-top: 70px;
+            padding-left: 90px;
+        }
+    }
+}
