@@ -5837,9 +5837,6 @@ button.close {
       height: 60px;
       width: 240px;
       background-color: #3dc9b3;
-      display: flex;
-      justify-content: center;
-      align-content: center;
       margin-left: 460px;
       font-size: 16px;
       font-weight: 700;
@@ -5886,6 +5883,12 @@ button.close {
           color: white; }
       #portfolio .skill .icon h3 {
         margin-top: 60px; }
+        #portfolio .skill .icon h3:after {
+          content: " ";
+          border: solid 2px #3dc9b3;
+          display: block;
+          width: 35px;
+          margin: 25px auto; }
       #portfolio .skill .icon p {
         font-size: 18px;
         color: #8c9398;
@@ -5949,6 +5952,12 @@ button.close {
     text-align: center; }
     #creative .creative-parts h4 {
       margin-top: 60px; }
+      #creative .creative-parts h4:after {
+        content: " ";
+        border: solid 2px #3dc9b3;
+        display: block;
+        width: 35px;
+        margin: 25px auto; }
     #creative .creative-parts p {
       margin-top: 30px;
       color: #8c9398; }
@@ -5972,7 +5981,8 @@ button.close {
       font-weight: 700;
       border-color: white;
       margin-left: 820px;
-      margin-top: 60px; }
+      margin-top: 60px;
+      transition: all 0.2s ease; }
     #creative .passion button:hover {
       border-color: #3dc9b3;
       color: #3dc9b3; }
@@ -5993,6 +6003,12 @@ button.close {
       margin-top: 90px; }
       #users .team .commentary h3 {
         font-weight: bold; }
+        #users .team .commentary h3:after {
+          content: " ";
+          border: solid 2px #3dc9b3;
+          display: block;
+          width: 35px;
+          margin: 25px auto; }
       #users .team .commentary p {
         margin-top: 30px;
         color: #8c9398; }
